@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gray_line" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp">
+
+
+            <TextView
+                android:id="@+id/text_vieweco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="118dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center|start|right|left|end"
+                android:text="ОТЧЕТЫ ПО ЭКОЛОГИИ"
+                android:textColor="#3C3C3C"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="19dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Все услуги смотрите в нашем каталоге на главной"
+                android:textColor="#3C3C3C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="18dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Предлагает услуги по разработке и согласованию документов в области охраны окружающей среды. Отчетность об образовании, использовании, обезвреживании и размещении отходов производства и потребления. \n\nПаспорта отходов I-IV и материалы обоснования на V класс опасности. Отчет по форме 2-ТП. Декларация о плате за негативное воздействие на окружающую среду."
+                android:textColor="#3C3C3C"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
